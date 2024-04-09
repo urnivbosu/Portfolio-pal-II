@@ -1,0 +1,146 @@
+body {
+    background-color:  hsl(113, 11%, 45%);
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: rgb(237, 218, 217);
+    border-radius: 13px;
+  }
+  
+  .login-box {
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 13px;
+    background-color: rgb(237, 218, 217);
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: #076978;
+    color: white;
+    font-size: 18px;
+  }
+  
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  
+  .para-2 {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  
+  .para-2 a {
+    color: #000000;
+  }
+
+  .footer-top {
+    background-color: var(--eerie-black-1);
+    padding-block: 80px 50px;
+  }
+  
+  .footer-top .container {
+    display: grid;
+    gap: 50px;
+  }
+  
+  .footer .logo { font-size: 3rem; }
+  
+  .footer-title {
+    color: var(--white);
+    font-size: var(--fs-3);
+    margin-block: 25px 20px;
+  }
+  
+  .footer-contact-link:not(:last-child) { margin-block-end: 12px; }
+  
+  address.footer-contact-link { max-width: 30ch; }
+  
+  .footer-list-title {
+    color: var(--white);
+    font-size: var(--fs-7);
+    font-weight: var(--fw-700);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .footer-list > li:not(:last-child) { margin-block-end: 10px; }
+  
+  .footer-list > li:first-child { margin-block-end: 20px; }
+  
+  .footer-link {
+    color: var(--gainsboro);
+    transition: var(--transition-1);
+  }
+  
+  .footer-link:is(:hover, :focus) { color: var(--blue-crayola); }
+  
+  .footer-bottom {
+    background-color: var(--eerie-black-2);
+    padding-block: 20px;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-block-end: 20px;
+  }
+  
+  .copyright-link {
+    display: inline-block;
+    color: var(--blue-crayola);
+  }
+  
+  .social-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-link {
+    font-size: 18px;
+    transition: var(--transition-1);
+  }
+  
+  .social-link:is(:hover, :focus) { color: var(--blue-crayola); }
+  
+  
